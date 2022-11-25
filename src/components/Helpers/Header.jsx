@@ -8,7 +8,7 @@ const Header = () => {
             src="../../../help2.png"
             alt="Sugar mommy/daddy"
           />
-          <h1>Sugar Mommy/Daddy</h1>
+          <h3>Control empresa Sugar Mommy/Daddy</h3>
           <form class="d-flex" role="search">
             <input
               class="form-control me-2"

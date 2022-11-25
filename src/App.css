@@ -1,87 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap");
 
-*{
-  font-family: 'JetBrains Mono', monospace;
+* {
+  font-family: "JetBrains Mono", monospace;
+  border-radius: 50px 50px 50px 50px;
 }
 
-.barraNavegacion{
+.barraNavegacion {
+  margin-top: 20px;
   height: 100%;
   width: 100%;
 }
 
-.imagen{
-  background-color: #8EC3B0;
+.imagen {
+  background-color: #8ec3b0;
   height: 8%;
   width: 8%;
   border-radius: 80px 80px 80px 80px;
   margin-left: 50px;
+  border: 1px solid white;
 }
 
-.form_item{
+.titulo {
+  text-align: center;
+}
+
+.form_item {
+  align-items: center;
   height: 40px;
   width: 430px;
   outline: none;
   border: none;
   border-bottom: 1px #bce29e solid;
   text-align: center;
+  border-radius: 50px 50px 50px 50px;
 }
 
 .form_item::placeholder {
-  background-color: #8EC3B0;
+  background-color: #8ec3b0;
   color: black;
   justify-items: center;
+  border-radius: 50px 50px 50px 50px;
 }
 
 section input:hover {
-  border: 1px solid white;
+  border: 1px solid;
   color: black;
   transition: 0.6s ease-in-out all;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.agregar {
+  display: flex;
+  justify-content: center;
 }
 
 p {
   text-align: center;
   margin: 20px;
+  border-bottom: 1px solid white;
 }
 
-
 .footer-basic {
-  padding:20px 0;
-  background-color:#8EC3B0;
-  color:black;
+  padding: 20px 0;
+  background-color: #8ec3b0;
+  color: black;
+  border-radius: 50px 50px 50px 50px;
 }
 
 .footer-basic ul {
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:18px;
-  line-height:1.6;
-  margin-bottom:0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
 }
 
 .footer-basic li {
-  padding:0 10px;
-}
-
-.footer-basic ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
-}
-
-.footer-basic ul a:hover {
-  opacity:1;
+  padding: 0 10px;
 }
 
 .footer-basic .social {
-  text-align:center;
-  padding-bottom:25px;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 .footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:13px;
-  color:black;
-  margin-bottom:0;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: black;
+  margin-bottom: 0;
+}
+
+.contenedorImagenes {
+  background-color: #8ec3b0;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.imagenes {
+  border: 1px solid white;
 }
